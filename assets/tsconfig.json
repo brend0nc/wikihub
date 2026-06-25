@@ -1,0 +1,13 @@
+// Editor-only: enables autocompletion for the Phoenix/LiveView JS APIs via the
+// deps path alias below. Safe to delete if your editor doesn't need it.
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["../deps/*"]
+    },
+    "allowJs": true,
+    "noEmit": true
+  },
+  "include": ["js/**/*"]
+}
